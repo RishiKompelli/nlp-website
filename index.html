@@ -12,7 +12,7 @@
 
 <div class="text-center">
   <h1 style="padding: 20px;">Therapeutic Dialogue Generation for Mental Health Improvement in Teenagers</h1>
-  <p>By: Rishi Kompelli</p> 
+  <p>By: <strong>Rishi Kompelli</strong></p> 
 </div>
   
 <div class="container">
@@ -20,7 +20,7 @@
     <div class="col-12 mb-4">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title"><b>Research Question</b></h3>
+          <h3 class="panel-title">Research Question</h3>
         </div>
         <div class="panel-body">
           <p>How can natural language processing (NLP) techniques be optimized to create effective therapeutic dialogues that significantly reduce anxiety in teenagers, and how do these AI-generated dialogues compare to those created by human therapists in terms of engagement, empathy, and anxiety reduction outcomes?</p>
@@ -30,7 +30,7 @@
     <div class="col-12 mb-4">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title"><b>Rationale</b></h3>
+          <h3 class="panel-title">Rationale</h3>
         </div>
         <div class="panel-body">
           <p>Mental health is important because it affects every aspect of our lives. Many teenagers experience mental health issues due to a combination of factors such as academic pressure, social media influence, and hormonal changes, yet they often cannot seek help due to stigma, lack of resources, and the high cost of professional therapy. This leaves many struggling in silence, without the support they need to manage their mental health effectively. This project seeks to overcome the barriers of stigma, cost, and resource availability by providing an affordable and effective alternative to traditional therapy.</p>
@@ -40,7 +40,7 @@
     <div class="col-12 mb-4">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title"><b>Methodology</b></h3>
+          <h3 class="panel-title">Methodology</h3>
         </div>
         <div class="panel-body">
           <p>In this project, we will combine multiple small public datasets into one large dataset to analyze teenage mental health issues. After standardizing and cleaning the data, we'll select and fine-tune a pre-trained model to predict mental health outcomes. We'll train and evaluate the model, ensuring accuracy and fairness. Our analysis will identify key factors and barriers to seeking help, and we'll visualize our findings for clear interpretation. Throughout the project, we'll maintain data privacy and address any biases. Finally, we'll compile our results to create an app that improves mental health support for teenagers.</p>
@@ -50,10 +50,11 @@
     <div class="col-12 mb-4">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title"><b>Data</b></h3>
+          <h3 class="panel-title">Data</h3>
         </div>
         <div class="panel-body">
-          <p>To preprocess the data, we start by loading multiple mental health-related datasets from various sources, including CSV and Parquet files, as well as directly from datasets available on the Hugging Face platform. For each dataset, we standardize the columns by renaming them to 'Input' and 'Output' and remove any unnecessary or unnamed columns. After loading and standardizing all datasets, we concatenate them into a single DataFrame. We then clean the combined data by dropping any columns not needed for analysis, removing duplicate entries, and handling missing values by dropping rows where 'Input' or 'Output' are null. Additionally, we perform text replacements to remove specific substrings from the 'Input' and 'Output' columns to ensure data consistency. The final preprocessed dataset is then saved to a CSV file for further use.</p>
+          <p>To preprocess the data, I started by loading multiple mental health-related datasets from various sources, including CSV and Parquet files, as well as directly from datasets available on the Hugging Face platform. For each dataset, I standardized the columns by renaming them to 'Input' and 'Output' and remove any unnecessary or unnamed columns. After loading and standardizing all datasets, I concatenated them into a single DataFrame. Then, I cleaned the combined data by dropping any columns not needed for analysis, removing duplicate entries, and handling missing values by dropping rows where 'Input' or 'Output' are null. Additionally, I performed text replacements to remove specific substrings from the 'Input' and 'Output' columns to ensure data consistency. The final preprocessed dataset is then saved to a CSV file for further use.
+          </p>
         </div>
       </div>
     </div>
@@ -64,10 +65,6 @@
   body {
     background-image: url('R.jpg');
     background-size: cover;
-  }
-  .container {
-    max-width: 800px; /* Adjust as necessary */
-    margin: 0 auto;
   }
   .panel {
     background-color: rgba(255, 255, 255, 0.9);
